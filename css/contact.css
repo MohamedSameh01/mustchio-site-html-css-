@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+@font-face {
+	font-family: 'leckerli_oneregular';
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    height: 38px;
+    margin: auto;
+    line-height: 38px;
+    background-color: #e6e7e9;
+    border-bottom: 4px dotted #B3B4B4 ;
+    top:0;
+    left:0;
+    z-index: 100;
+
+
+    
+
+}
+.navbar .a1{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 266px;
+    color: #4e6779;
+    font-weight: 35px;
+}
+.navbar .a1:hover{
+    color: black;
+}
+.navbar ul li {
+    float: right;
+    margin-right: 40px;
+    margin-top: -37px;
+}
+.navbar ul{
+    list-style: none;
+    margin-right:327px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding:0px 3px;
+    font-size: 14px;
+    color: rgb(170, 166, 166);
+}
+.navbar ul li a:hover{
+    color: rgb(50, 90, 118);
+}
+.logo{
+   position: relative;
+   margin-left: 635.5px;
+   margin-top: 49px;
+    
+}
+.links{
+    margin-top: 57px;
+}
+.links a{
+    text-decoration:none;
+    font-size: 15px;
+    font-weight: 10px;
+    margin-right: 20px;
+    color: black;
+}
+.links .main{
+    color: #0BA39C;
+}
+.links a:hover{
+    color:#0BA39C ;
+}
+.box{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 511px;
+    height: 62px;
+    margin-top: 54px;
+
+}
+.box h2{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.cont ul{
+    list-style: none;
+    padding-top: 15px;
+   
+}
+.cont ul li{
+    width: 619px;
+    height: 60px;
+    margin: 25px auto;
+    text-align: center;
+
+    
+   
+}
+.cont ul li input{
+    padding: 20px;
+    text-align: center;
+    width: 655px; 
+    height: 61px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    font-size: 15px;
+    color: black;
+    
+}
+.cont .special{
+    height: 217px;
+    padding: 0px 0px 130px 0px;
+}
+.send{
+    width: 107px;
+    height:64px;
+    color: #fff;
+    background-color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    margin: 181px 751px;
+    transition: .5s;
+
+}
+.send:hover{
+    background-color: #fff;
+    color: black;
+
+}
+.footer{
+    background-color: #252525;
+    width: 100%;
+    height: 121px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.footer p{
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 320px;
+}
+.footer ul li{
+    margin-right: 32px;
+    display: inline-block;
+    float: right;
+    font-size: 30px;
+    margin-top: -24px;
+}
+.footer ul li a{
+    color: white;
+    padding:5px 10px;
+    border: 1px solid white;
+}
+.footer ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.clear{
+    clear: both;
+}
